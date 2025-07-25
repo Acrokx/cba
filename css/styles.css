@@ -1,0 +1,61 @@
+/* Estilo base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+}
+
+/* Sección hero */
+.hero-section {
+  height: 90vh;
+  background: #146c43; /* Verde oscuro */
+}
+
+.hero-logo {
+  max-width: 200px;
+}
+
+/* Títulos */
+h2 {
+  color: #198754; /* Verde Bootstrap */
+  border-left: 4px solid #198754;
+  padding-left: 0.5rem;
+}
+
+/* Botones principales (si se usan fuera de bootstrap) */
+.btn-primary {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-primary:hover {
+  background-color: #146c43;
+  border-color: #146c43;
+}
+
+/* Card */
+.card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #198754;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #198754;
+}
+
+
